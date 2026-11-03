@@ -1,0 +1,6 @@
+feature_set,n_features,PR_AUC_mean,PR_AUC_std,ROC_AUC_mean,ROC_AUC_std
+1. ALL features,23,0.9608,0.043,0.9893,0.0216
+2. PRE only,18,0.9759,0.0414,0.9902,0.0217
+3. PRE - rule features,16,0.8071,0.093,0.9877,0.0228
+4. PRE - rule - balances,12,0.5012,0.0982,0.9725,0.0129
+5. Type only (baseline),1,0.03,0.0016,0.8901,0.0036

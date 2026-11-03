@@ -1,0 +1,5 @@
+model,CV_PR_AUC,CV_PR_AUC_std,CV_ROC_AUC,CV_recall@0.5,CV_precision@0.5
+LogisticRegression,0.9985,0.003,1.0,0.9818,1.0
+RandomForest,0.9985,0.003,1.0,0.9636,1.0
+HistGradientBoosting,0.9819,0.0361,0.9906,0.9818,1.0
+Dummy,0.0067,0.0002,0.5,0.0,0.0

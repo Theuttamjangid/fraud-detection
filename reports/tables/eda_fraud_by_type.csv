@@ -1,0 +1,6 @@
+type,transactions,frauds,fraud_rate_%
+PAYMENT,5529,0,0.0
+CASH_IN,1953,0,0.0
+CASH_OUT,1329,35,2.63
+TRANSFER,944,33,3.5
+DEBIT,344,0,0.0

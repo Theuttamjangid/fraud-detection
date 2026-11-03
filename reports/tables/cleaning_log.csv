@@ -1,0 +1,6 @@
+step,rows_removed,rows_left
+0. raw data,0,10127
+1. 'Not reviewed' labels removed,2,10125
+2. rows with NaN in critical columns removed,26,10099
+3. invalid (negative/zero) values removed,0,10099
+4. duplicate rows removed,0,10099
