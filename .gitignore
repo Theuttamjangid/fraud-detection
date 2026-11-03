@@ -1,0 +1,17 @@
+# Virtual environment (bahut bada, GitHub pe nahi jaata)
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Regenerable outputs
+models/
+data/processed/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/

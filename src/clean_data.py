@@ -1,13 +1,5 @@
 """
-clean_data.py  --  STEP 2
--------------------------
-inspect_data.py mein jo problems mili thi, unhe yahan fix karte hain.
-
-Input : data/raw/Fraud_Detection.xlsx
-Output: data/processed/clean_transactions.csv
-        reports/tables/cleaning_log.csv   (har step mein kitni rows gayi)
-
-Run (project root se):   python src/clean_data.py
+clean_data.py  
 """
 import pandas as pd
 from config import RAW_FILE, CLEAN_FILE, TABLE_DIR, TARGET
@@ -24,7 +16,7 @@ def record(step, before):
 log.append({"step": "0. raw data", "rows_removed": 0, "rows_left": len(df)})
 
 # ---------------------------------------------------------------
-# 1) Column names saaf karo (space hatao, consistent naam)
+# 1) Column names clean kro
 # ---------------------------------------------------------------
 df.columns = df.columns.str.strip()
 df = df.rename(columns={
