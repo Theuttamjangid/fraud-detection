@@ -1,0 +1,4 @@
+model,test_PR_AUC,test_ROC_AUC
+HistGradientBoosting,0.853,0.9952
+RandomForest,0.751,0.9939
+LogisticRegression,0.7225,0.9719
